@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Formation</h1>
+    <hr>
+    <br>
+
+    <form>
+        <!-- name-->
+        <label>Name :</label>
+        <input required type="text" placeholder="enter your name" name="name" title="Letters only" 
+        pattern="^[A-Za-z]{3,5}$">
+        <br>
+        <!-- Email-->
+
+        <label>Email:</label>
+        <input required type="email" placeholder="enter your email">
+        <br>
+        <!-- password-->
+
+        <label for="userpassword">Password</label>
+        <input placeholder="enter your pass" type="password" name="userpassword" id="userpassword"
+            pattern="(?=.*[0-9]{1,})(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%&*]{1,}).{8,}" 
+            title="enter only 1 uppercase , 1 lowercase
+            , number , special character">
+        <br>
+        <!-- Address -->
+
+        <label for="add">Adderss</label>
+        <input required  type="text" name="adderss" id="add" placeholder="enter your adderss" pattern="[A-Za-z ]{2,}" title="letters only">
+        <br>
+        <!-- Mobile -->
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" name="mobile" maxlength="11" pattern="01[0125]-[0-9]{8}"
+            placeholder="01xxxxxxxxx" title="start with 010 , 011 , 012 , 015">
+        <br>
+        <!-- Range -->
+
+        <label>Range</label>
+        <input type="range" minlength="300" maxlength="500">
+        <br>
+        <!-- datalist -->
+        <label for="bank">Banks</label>
+        <input list="bank" name="bank">
+        <datalist id="bank">
+            <option value="Cairo Bank">Cairo Bank</option>
+            <option value="Alex Bank">Alex Bank</option>
+            <option value="Ahli Bank">Ahli Bank</option>
+            <option value="Nasser Bank">Nasser Bank</option>
+            <option value="Abu Dhabi Bank">Abu Dhabi Bank</option>
+        </datalist>
+        <br>
+        <!-- file -->
+        <input required type="file" accpet=".png">
+        <br>
+        <br>
+        <!-- fieldset -->
+       <fieldset>
+        <legend>set a message</legend>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" id="message"
+        placeholder="enter your message" rows="5" cols="50"></textarea>
+       </fieldset>
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
