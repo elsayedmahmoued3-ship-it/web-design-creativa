@@ -2,72 +2,66 @@
     background-color: aqua;
     box-sizing: border-box;
     display: inline-block;
-    margin-right: 0%;
     vertical-align: bottom;
-    padding: 20px;
-    padding-bottom: 50%;
-    width: 49%;
+    padding-bottom: 26%;
+    width: 45%;
     padding-right: 9%;
     padding-left: 5%;
-}
-.text{
-    padding-top:5% ;
-    padding-bottom: 0%;
-    display: inline-block;
-    box-sizing: border-box;
+    padding-top: 5%;
+    justify-content: center;
 }
 .right{
    
     display: inline-block;
-    width: 34%;
-    padding-bottom: 0%;
+    width: 35%;
+    padding-bottom: 1%;
     background-color: white;
-    padding-left: 5%;
-    padding-right: 10%;
-    padding-top: 3%;
-    vertical-align: auto;
+    padding-left: 12%;
+    padding-right: 0%;
 }
 .card-body{
-    width: 20%;
-    margin-right: 10%;
+    width: 50%;
+    margin-right: 20%;
     display: inline-block;
-    box-sizing: border-box;
+    box-sizing: border-box ;
+    
 
 }
 .container{
-    width: 40%;
+    width: 80%;
     box-sizing: border-box;
     margin-left: 10%;
+
 
 }
 .test3{
     color: white;
     padding-left: 15%;
 }
-p{
-    padding-left: 10%;
-}
+
 .sss{
     text-align: center;
     margin-left: 90%;
     background-color: cornflowerblue;
 }
 .body{
-    background-color: blueviolet;
-    padding-top: 7%;
-    margin: auto;
+    padding-top: 2%;
     padding-right: 0%;
+    margin-left: 0%;
+    width: 100%;
+    background-color: blueviolet;
+
     
 }
-.light{
+.header{
     margin-right: 0%;
-    margin-left: 20%;
-}
-.dark{
+    margin-left: 0%;
     width: 100%;
-    text-align: center;
+
 }
+
 .A{
-    text-align: center;
     padding-bottom: 0%;
+    padding-top: 0%;
+    text-align: justify;
 }
