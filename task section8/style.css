@@ -13,6 +13,10 @@
     justify-content: space-between;
     
 }
+.d-flex-img{
+    display: flex;
+    justify-content: space-between;
+}
 .logo{
     display: flex;
     justify-content: space-between;
@@ -58,9 +62,18 @@ a{
     
 }
 .bg-light p{
-    width: 30%;
+    width: 67%;
     padding-top: 5%;
     padding-left: 8%;
+}
+.margin-left{
+    margin-left: 5%;
+    display: flex;
+    margin-top: 4%;
+}
+.custom-fresh{
+    display: flex;
+    justify-content: space-between;
 }
 .fresh{
     width: 50%;
@@ -100,29 +113,29 @@ a{
     width: 100%;
     margin-bottom: 3%;
     padding-left: 4%;
-    height: 400px;
+    height: 500px;
 }
-.bg-dark h2{
+
+.width{
+    width: 40%;
+    padding-top: 52px;
+}
+.width img{
     padding-top: 5%;
-    padding-left: 10%;
-    width: 30%;
+    width: 100%;
 }
-.bg-dark img{
-    padding-top: 5%;
-}
-.display-width{
-    width: 30%;
+.addition{
+    width: 40%;
     display: flex;
-    justify-content: space-between;
-    padding-top: 8%;
 }
+
 .background{
     background-color: darkcyan;
     border: 1px solid;
     width: 20%;
     height: 10%;
     padding-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 10%;
 }
 .colums{
     display: flex;
@@ -130,7 +143,7 @@ a{
     align-content: center;
 }
 .bg-dark p{
-    width: 172px;
+    width: 237px;
     padding-top: 30%;
 }
 .bg-img{
@@ -146,7 +159,11 @@ a{
     width: 20%;
     height: 20%;
     text-align: center;
+    margin-top: 2%;
+    background-color: transparent;
+    color: white;
 }
+
 .padding-bottom{
     padding-bottom: 80px;
 }
@@ -159,13 +176,43 @@ a{
 
 
 }
-.position-absolute img{
-    width: 80%;
-}
 .position-absolute{
+    background-color: rgb(167, 90, 60);
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 5%;
+    padding-left: 6%;
+    padding-right: 4%;
     position: absolute;
-    left: 16%;
-    top: 442%;
+    right: 261px;
+    top: 2914px;
+}
+.custom-icon{
+    display: flex;
+    justify-content: space-between;  
+    gap: 30px;  
+}
+.plant{
+    width: 20%;
+    text-align: center;
+}
+
+.border-icon{
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+.plant{
+    display: flex;
+    justify-content: space-between;
 }
 .footer{
     background-color: rgb(6, 92, 49);
@@ -179,4 +226,8 @@ a{
 .logo-footer{
     width: 40%;
     
+}
+.social{
+    display: flex;
+    margin-top: 2%;
 }

@@ -1,0 +1,154 @@
+@media(max-width: 575px){
+    .wellbeing img{
+        display: none;
+    }
+    .margin-left{
+        display: block;
+        text-align: center;
+    }
+    .margin-left p{
+        padding-left: 25%;
+    }
+    .bg-light h2{
+        text-align: center;
+    }
+    .d-flex-img{
+        display: block;
+    }
+    .img1,
+    .img2{
+        width: 100%;
+
+    }
+    .custom-fresh{
+        display: block;
+    }
+    .fresh,
+    .fresh-organic{
+        width: 100%;
+    }
+    .bg-dark > .d-flex > .d-flex{
+        display: block;
+    }
+    .width{
+        width: 100%;
+    }
+    .width img{
+        display: none;
+    }
+    .custom-eat{
+        display: block;
+        width: 100%;
+    }
+    .background{
+        padding-top: 1%;
+        
+    }
+    .addition{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-left: 33px;
+        margin-top: auto;
+    }
+    .eat-p{
+        text-align: center;
+        margin-top: -78px;
+    }
+    .addition > div {
+        width: 100%;
+    }
+    
+    .bg-img p{
+        display: none;
+
+    }
+    .custom-icon{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .image{
+        height: 450px;
+    }
+    .plant{
+        width: 100%;
+        display: block;
+    }
+    .position-absolute{
+        right: 162px;
+        top: auto;
+        width: 40%;
+        height: auto;
+        margin: -100px auto 0;
+        padding: 25px 15px;
+        box-sizing: border-box;
+        border-radius: 15px;
+    }
+    .footer{
+        margin-top: 70%;
+    }
+    .footer-content{
+        display: block;
+    }
+    .logo-footer{
+        width: 100%;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .wellbeing{
+        display: none;
+    }
+    .img2{
+        width: 46%;
+    }
+    .margin-left{
+        text-align: center;
+    }
+    .background{
+        margin-right: 75px;
+    }
+    .bg-light h2{
+        text-align: center;
+    }
+    .width img{
+        display: none;
+    }
+    .custom-eat{
+        text-align: center;
+        margin: auto;
+        padding: 1% 30%;
+        
+    }
+    .eat-p{
+        margin-right: 287px;
+        padding-left: 75px;
+    }
+    .addition p{
+        padding-right: 10px;
+    }
+    .bg-dark{
+        height: 415px;
+    }
+    .plant{
+        width: 40%;
+    }
+    .position-absolute{
+        position: absolute;
+        right: 26%;
+        top: 2438px;
+        width: 45%;
+        height: auto;
+        padding: 30px;
+    }
+    .custom-icon{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding-left: 50px;
+    }
+    .footer-content{
+        display: block;
+    }
+
+}
